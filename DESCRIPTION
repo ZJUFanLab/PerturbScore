@@ -1,0 +1,15 @@
+Package: PerturbScore
+Title: Unravel the perturbation effects in single-cell CRISPR screening data
+Version: 1.0.0.9000
+Authors@R: c(
+    person("Jie", "Chen" , email="12319001@zju.edu.cn", role =  "cre"),
+    person("Junyun", "Cheng" , email="ileslie@zju.edu.cn", role = "aut"))
+Description: PerturbScore is a computational model to unravel the perturbation effects based on linear regression and gene co-expression network.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: stats,igraph,tidyr,ggplot2,dplyr
+Depends: 
+    R (>= 2.10)
+LazyData: true
